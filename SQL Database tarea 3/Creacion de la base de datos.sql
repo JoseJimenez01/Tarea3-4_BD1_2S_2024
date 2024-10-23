@@ -17,42 +17,42 @@ CREATE TABLE dbo.CuentasTarjeta_TC
 
 );
 
-CREATE TABLE dbo.TarjetaHabientes_TH
+CREATE TABLE dbo.TarjetaHabientes_TH --clientes de una operación de tarjeta de crédito
 (
 	id INT IDENTITY(1,1) PRIMARY KEY
-	--, idPuesto INT NOT NULL
 	, Nombre VARCHAR(128) NOT NULL
 	, ValorDocumentoIdentidad INT NOT NULL
 	, FechaNacimiento DATE NOT NULL
 
 );
 
-CREATE TABLE dbo.TarjetasFisicas_TF
+CREATE TABLE dbo.TarjetasFisicas_TF --Tarjeta físico-plástica
 (
 	id INT IDENTITY(1,1) PRIMARY KEY
+	, idTH INT NOT NULL
 	, NumeroTarjeta VARCHAR(16) NOT NULL
 	, CCV INT NOT NULL
 	, FechaVencimiento DATE NOT NULL
 	, FechaCreacion DATE  NOT NULL
-	, TipoCreacion VARCHAR(32) NOT NULL --Reposicion por robo o perdida o  Renovacion
+	, TipoCreacion VARCHAR(32) NOT NULL --Reposicion por robo o perdida, o  Renovacion
 	, EsActivo BIT NOT NULL
 );
 
 
 
-CREATE TABLE dbo.TipoMovimiento
-(
-	id INT PRIMARY KEY
-	, Nombre VARCHAR(32) NOT NULL
-	, TipoAccion VARCHAR(32) NOT NULL
-);
+--CREATE TABLE dbo.TipoMovimiento
+--(
+--	id INT PRIMARY KEY
+--	, Nombre VARCHAR(32) NOT NULL
+--	, TipoAccion VARCHAR(32) NOT NULL
+--);
 
-CREATE TABLE dbo.Usuario
-(
-	id INT PRIMARY KEY
-	, Username VARCHAR(64) NOT NULL
-	, Password VARCHAR(64) NOT NULL
-);
+--CREATE TABLE dbo.Usuario
+--(
+--	id INT PRIMARY KEY
+--	, Username VARCHAR(64) NOT NULL
+--	, Password VARCHAR(64) NOT NULL
+--);
 
 --CREATE TABLE dbo.Movimiento
 --(

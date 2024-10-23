@@ -1,0 +1,68 @@
+CuentasTarjeta_TC (en a lectura habla de tarjetas de credito como TC)
+-id
+-idTH
+-idTF
+CONSDIERACIONES:
+
+
+TarjetaHabientes_TH --clientes de tarjetas de credito
+-id
+-Nombre
+-
+
+
+TarjetasCreditoAdicional_TCA --cuentas de tarjetas de credito adicional
+-id
+-idTCM
+-EstaAsociada
+CONSIDERACIONES:
+-Una TCA esta asociada a una TCM, si se enlaza actualizar EstaAsociada
+-todos los movimientos de las TCA se aplican al saldo de la TCM y se registran en ambos
+-no tienen saldo, solo se usan como instrumento para hacer movimientos
+-cualquier movimiento que involucre el saldo, se autoriza si la TCM asociada credito disponible
+
+
+TarjetasCreditoMaestras_TCM --cuentas de tarjetas de credito maestra
+-id
+-idTH
+-idTCA
+-idTipoTC
+-LimiteCredito
+-Saldo
+CONSIDERACIONES:
+-puede estar asociada a varias TCA
+-se asocia al TH duenno del credito, sera al que se le realicen los pagos,
+a la que se le calculen intereses,
+al que se le calcule costos por servicio,
+multas,...
+-el saldo no puede superar el limite del credito
+-todos los movimientos de las TCA se aplican al saldo de la TCM y se registran en ambos
+-son instrumentos de compra, como es la cuenta maestra se tiene que ir cambiando el saldo segun el movimiento, ya que la TCA no tiene saldo
+-cualquier movimiento que involucre el saldo, se autoriza si la TCM asociada credito disponible
+
+
+
+TarjetasFisicas_TF --tarjetas fisico-plasticas
+-id
+-idTH(para el nombre del duenno)
+-NumeroTarjeta
+-CCV
+-Pin (para los cajeros)
+-FechaVencimiento
+-FechaCreacion
+-TipoCreacion
+-EsActivo
+
+CONSIDERACIONES:
+-cuando se reporta como perdida o robada se inactiva(no se aceptaran movimientos)
+-el banco crea una nueva tarjeta y la asigna al TCA(tarjetas de credito adicional) o TCM(tarjetas de credito maestras) y se cobra el debido monto
+-si alcanza la fecha de vencimiento se inactiva y creara la nueva TF, cobrando el debido monto
+-las cuentas de tarjeta(TC) pueden estar asociadas a muchas TF, pero solo la ultima emitida debe estar vigente
+
+
+TipoTCM --tipos de cuenta de tarjeta maestra
+-id
+-Nombre
+
+
+ReglasXTCM
