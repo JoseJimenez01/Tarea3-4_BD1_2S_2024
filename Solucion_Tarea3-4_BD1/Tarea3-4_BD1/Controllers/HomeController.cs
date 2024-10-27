@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Tarea3_4_BD1.Models;
+using Tarea3BD1.Models;
 
-namespace Tarea3_4_BD1.Controllers
+namespace Tarea3BD1.Controllers
 {
     public class HomeController : Controller
     {

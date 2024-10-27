@@ -1,4 +1,4 @@
-namespace Tarea3_4_BD1.Models
+namespace Tarea3BD1.Models
 {
     public class ErrorViewModel
     {

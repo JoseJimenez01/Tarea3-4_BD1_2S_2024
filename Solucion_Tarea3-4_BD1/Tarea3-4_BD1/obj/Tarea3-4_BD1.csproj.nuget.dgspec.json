@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Material_y_evaluaciones_de_cursos\\2 S 2024\\Bases de Datos 1\\Tarea 3\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj": {}
+    "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Material_y_evaluaciones_de_cursos\\2 S 2024\\Bases de Datos 1\\Tarea 3\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj": {
+    "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Material_y_evaluaciones_de_cursos\\2 S 2024\\Bases de Datos 1\\Tarea 3\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
+        "projectUniqueName": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
         "projectName": "Tarea3-4_BD1",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Material_y_evaluaciones_de_cursos\\2 S 2024\\Bases de Datos 1\\Tarea 3\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Material_y_evaluaciones_de_cursos\\2 S 2024\\Bases de Datos 1\\Tarea 3\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\obj\\",
+        "projectPath": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
+        "packagesPath": "C:\\Users\\stick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

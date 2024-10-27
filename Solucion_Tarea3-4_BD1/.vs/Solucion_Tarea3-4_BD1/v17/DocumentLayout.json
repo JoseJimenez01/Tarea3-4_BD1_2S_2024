@@ -1,12 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Material_y_evaluaciones_de_cursos\\2 S 2024\\Bases de Datos 1\\Tarea 3\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\models\\empleadomovimientosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\models\\empleadomovimientosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\tarea3-4_bd1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\tarea3-4_bd1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|c:\\users\\stick\\onedrive\\documentos\\tec\\2024\\ii semestre\\bases de datos i\\bases de datos\\proyectos\\3 tarea\\tarea3-4_bd1_2s_2024\\solucion_tarea3-4_bd1\\tarea3-4_bd1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A28518-562B-4936-A309-0B87A3E21189}|Tarea3-4_BD1\\Tarea3-4_BD1.csproj|solutionrelative:tarea3-4_bd1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoMovimientosViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Models\\EmpleadoMovimientosViewModel.cs",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Models\\EmpleadoMovimientosViewModel.cs",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Models\\EmpleadoMovimientosViewModel.cs",
+              "RelativeToolTip": "Tarea3-4_BD1\\Models\\EmpleadoMovimientosViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:17:34.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tarea3-4_BD1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:06:41.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Tarea3-4_BD1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:06:04.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Tarea3-4_BD1\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:05:22.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tarea3-4_BD1",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
+              "RelativeToolTip": "Tarea3-4_BD1\\Tarea3-4_BD1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T03:03:48.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\appsettings.json",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\appsettings.json",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\appsettings.json",
+              "RelativeToolTip": "Tarea3-4_BD1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T03:03:35.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Tarea3-4_BD1\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAWwDEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:02:01.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Tarea3-4_BD1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T02:59:28.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Tarea3-4_BD1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T03:08:00.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Program.cs",
+              "RelativeDocumentMoniker": "Tarea3-4_BD1\\Program.cs",
+              "ToolTip": "C:\\Users\\stick\\OneDrive\\Documentos\\TEC\\2024\\II SEMESTRE\\BASES DE DATOS I\\Bases de Datos\\Proyectos\\3 tarea\\Tarea3-4_BD1_2S_2024\\Solucion_Tarea3-4_BD1\\Tarea3-4_BD1\\Program.cs",
+              "RelativeToolTip": "Tarea3-4_BD1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:00:41.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
