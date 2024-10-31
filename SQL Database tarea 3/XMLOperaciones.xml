@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <fechaOperacion Fecha="2024-01-01">
+		<NTH>
+			<NTH Nombre="Andrea García" ValorDocIdentidad="1-2345-6789" FechaNacimiento="1961-04-15" NombreUsuario="agarcía" Password="hola123" />
+			<NTH Nombre="Carlos Mendoza" ValorDocIdentidad="2-3456-7890" FechaNacimiento="1962-11-23" NombreUsuario="cmendoza" Password="hola123" />
+			<NTH Nombre="Laura Pérez" ValorDocIdentidad="3-4567-8901" FechaNacimiento="1963-07-08" NombreUsuario="lpérez" Password="hola123" />
+			<NTH Nombre="Juan Sánchez" ValorDocIdentidad="4-5678-9012" FechaNacimiento="1964-02-19" NombreUsuario="jsánchez" Password="hola123" />
+			<NTH Nombre="Sofía Ramírez" ValorDocIdentidad="5-6789-0123" FechaNacimiento="1965-10-05" NombreUsuario="sramírez" Password="hola123" />
+			<NTH Nombre="Diego Gómez" ValorDocIdentidad="6-7890-1234" FechaNacimiento="1966-06-21" NombreUsuario="dgómez" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="22627" TipoTCM="Oro" LimiteCredito="5000000" TH="6-7890-1234" />
+			<NTCM Codigo="99446" TipoTCM="Corporativo" LimiteCredito="10000000" TH="2-3456-7890" />
+			<NTCM Codigo="84946" TipoTCM="Corporativo" LimiteCredito="10000000" TH="1-2345-6789" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="84946" CodigoTCA="96761" TH="6-7890-1234" />
+			<NTCA CodigoTCM="22627" CodigoTCA="64179" TH="3-4567-8901" />
+			<NTCA CodigoTCM="84946" CodigoTCA="46638" TH="2-3456-7890" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="9585994043536904" TCAsociada="99446" FechaVencimiento="8/2026" CCV="6978" />
+			<NTF Codigo="5655636577940569" TCAsociada="46638" FechaVencimiento="8/2028" CCV="8315" />
+			<NTF Codigo="2855446415731838" TCAsociada="64179" FechaVencimiento="10/2028" CCV="4261" />
+			<NTF Codigo="2256488286809408" TCAsociada="96761" FechaVencimiento="12/2028" CCV="8606" />
+			<NTF Codigo="5373571423133445" TCAsociada="84946" FechaVencimiento="3/2026" CCV="2669" />
+			<NTF Codigo="5525247354599728" TCAsociada="22627" FechaVencimiento="1/2028" CCV="5619" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="5525247354599728" FechaMovimiento="2024-01-01" Monto="49351" Descripcion="Walmart en Orotina" Referencia="TRBQZ" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="5373571423133445" FechaMovimiento="2024-01-01" Monto="90358" Descripcion="En Goicoechea" Referencia="S3W04" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="5655636577940569" FechaMovimiento="2024-01-01" Monto="73024" Descripcion="ATM de San José" Referencia="66P34" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="5373571423133445" FechaMovimiento="2024-01-01" Monto="27449" Descripcion="Walmart en Goicoechea" Referencia="2XK1S" />
+			<Movimiento Nombre="Cargos por Servicio" TF="2855446415731838" FechaMovimiento="2024-01-01" Monto="46489" Descripcion="En Limón" Referencia="0T56Q" />
+			<Movimiento Nombre="Compra" TF="5655636577940569" FechaMovimiento="2024-01-01" Monto="83779" Descripcion="ATM de Palmares" Referencia="18TPD" />
+			<Movimiento Nombre="Pago en Linea" TF="9585994043536904" FechaMovimiento="2024-01-01" Monto="99411" Descripcion="ATM de Moravia" Referencia="H9I2M" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="5373571423133445" FechaMovimiento="2024-01-01" Monto="32502" Descripcion="Sucursal en San Ramón" Referencia="0JQFO" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="5525247354599728" FechaMovimiento="2024-01-01" Monto="30971" Descripcion="En Atenas" Referencia="FUQPS" />
+			<Movimiento Nombre="Pago en ATM" TF="5525247354599728" FechaMovimiento="2024-01-01" Monto="67122" Descripcion="Sucursal en Turrialba" Referencia="F04BT" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="5525247354599728" FechaMovimiento="2024-01-01" Monto="0" Descripcion="Sucursal en Cartago" Referencia="EQKNP" />
+			<Movimiento Nombre="Cargos por Servicio" TF="9585994043536904" FechaMovimiento="2024-01-01" Monto="58910" Descripcion="Sucursal en San Pablo" Referencia="F04BT" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="5373571423133445" FechaMovimiento="2024-01-01" Monto="88023" Descripcion="En San Carlos" Referencia="F04BT" />
+			<Movimiento Nombre="Pago en ATM" TF="5655636577940569" FechaMovimiento="2024-01-01" Monto="39744" Descripcion="Sucursal en Puntarenas" Referencia="K55TC" />
+			<Movimiento Nombre="Pago en ATM" TF="5655636577940569" FechaMovimiento="2024-01-01" Monto="50855" Descripcion="Walmart en Quepos" Referencia="HKZTI" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-03">
+		<NTH>
+			<NTH Nombre="Valentina Torres" ValorDocIdentidad="7-8901-2345" FechaNacimiento="1967-09-14" NombreUsuario="vtorres" Password="hola123" />
+			<NTH Nombre="José Castro" ValorDocIdentidad="8-9012-3456" FechaNacimiento="1968-03-30" NombreUsuario="jcastro" Password="hola123" />
+			<NTH Nombre="Daniela Fernández" ValorDocIdentidad="9-0123-4567" FechaNacimiento="1969-08-12" NombreUsuario="dfernández" Password="hola123" />
+			<NTH Nombre="Pablo Rodríguez" ValorDocIdentidad="1-1234-5678" FechaNacimiento="1970-01-25" NombreUsuario="prodríguez" Password="hola123" />
+			<NTH Nombre="Camila Silva" ValorDocIdentidad="2-2345-6789" FechaNacimiento="1971-12-11" NombreUsuario="csilva" Password="hola123" />
+			<NTH Nombre="Mateo Delgado" ValorDocIdentidad="3-3456-7890" FechaNacimiento="1972-05-09" NombreUsuario="mdelgado" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="54279" TipoTCM="Platino" LimiteCredito="7000000" TH="7-8901-2345" />
+			<NTCM Codigo="73763" TipoTCM="Platino" LimiteCredito="7000000" TH="9-0123-4567" />
+			<NTCM Codigo="73442" TipoTCM="Platino" LimiteCredito="7000000" TH="2-2345-6789" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="54279" CodigoTCA="91948" TH="8-9012-3456" />
+			<NTCA CodigoTCM="73763" CodigoTCA="17190" TH="1-1234-5678" />
+			<NTCA CodigoTCM="54279" CodigoTCA="62411" TH="3-3456-7890" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="6582011518402719" TCAsociada="73763" FechaVencimiento="7/2027" CCV="4791" />
+			<NTF Codigo="1524776262565386" TCAsociada="62411" FechaVencimiento="8/2028" CCV="4062" />
+			<NTF Codigo="5134942862922132" TCAsociada="17190" FechaVencimiento="12/2027" CCV="3783" />
+			<NTF Codigo="8978920513967653" TCAsociada="54279" FechaVencimiento="6/2026" CCV="3830" />
+			<NTF Codigo="7407888157510632" TCAsociada="91948" FechaVencimiento="12/2027" CCV="1426" />
+			<NTF Codigo="9982757494520271" TCAsociada="73442" FechaVencimiento="6/2027" CCV="6822" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Pago en ATM" TF="5655636577940569" FechaMovimiento="2024-01-01" Monto="50855" Descripcion="Walmart en Quepos" Referencia="HKZTI" />
+			<Movimiento Nombre="Cargos por Servicio" TF="2855446415731838" FechaMovimiento="2024-01-03" Monto="82994" Descripcion="Walmart en Moravia" Referencia="0JQFO" />
+			<Movimiento Nombre="Retiro en Ventana" TF="2256488286809408" FechaMovimiento="2024-01-03" Monto="68789" Descripcion="Walmart en Parrita" Referencia="2MY8S" />
+			<Movimiento Nombre="Cargos por Servicio" TF="2256488286809408" FechaMovimiento="2024-01-03" Monto="13813" Descripcion="ATM de Tibás" Referencia="6CNN0" />
+			<Movimiento Nombre="Retiro en Ventana" TF="5525247354599728" FechaMovimiento="2024-01-03" Monto="25150" Descripcion="En San Rafael" Referencia="C4HO1" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="1524776262565386" FechaMovimiento="2024-01-03" Monto="68448" Descripcion="ATM de Desamparados" Referencia="ZJBVL" />
+			<Movimiento Nombre="Renovacion de TF" TF="9982757494520271" FechaMovimiento="2024-01-03" Monto="15559" Descripcion="Sucursal en Cañas" Referencia="K9J0Y" />
+			<Movimiento Nombre="Pago en Linea" TF="1524776262565386" FechaMovimiento="2024-01-03" Monto="66778" Descripcion="En San Carlos" Referencia="I9FDN" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="5655636577940569" FechaMovimiento="2024-01-03" Monto="30613" Descripcion="Walmart en Santa Cruz" Referencia="F04BT" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="9585994043536904" FechaMovimiento="2024-01-03" Monto="93451" Descripcion="En Pococí" Referencia="DWYMZ" />
+			<Movimiento Nombre="Renovacion de TF" TF="9982757494520271" FechaMovimiento="2024-01-03" Monto="51044" Descripcion="En Limón" Referencia="H0VSI" />
+			<Movimiento Nombre="Renovacion de TF" TF="5525247354599728" FechaMovimiento="2024-01-03" Monto="92435" Descripcion="ATM de Desamparados" Referencia="MT37B" />
+			<Movimiento Nombre="Cargos por Servicio" TF="1524776262565386" FechaMovimiento="2024-01-03" Monto="89047" Descripcion="Walmart en Nicoya" Referencia="Y8TLR" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="8978920513967653" FechaMovimiento="2024-01-03" Monto="0" Descripcion="ATM de Cartago" Referencia="9B103" />
+			<Movimiento Nombre="Retiro en Ventana" TF="9982757494520271" FechaMovimiento="2024-01-03" Monto="45784" Descripcion="En Curridabat" Referencia="MLIQD" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="9982757494520271" FechaMovimiento="2024-01-03" Monto="45915" Descripcion="Sucursal en Liberia" Referencia="OJEJ1" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-05">
+		<NTH>
+			<NTH Nombre="Mariana Ortiz" ValorDocIdentidad="4-4567-8901" FechaNacimiento="1973-10-22" NombreUsuario="mortiz" Password="hola123" />
+			<NTH Nombre="Lucas Martínez" ValorDocIdentidad="5-5678-9012" FechaNacimiento="1974-06-14" NombreUsuario="lmartínez" Password="hola123" />
+			<NTH Nombre="Julia Ruiz" ValorDocIdentidad="6-6789-0123" FechaNacimiento="1975-03-04" NombreUsuario="jruiz" Password="hola123" />
+			<NTH Nombre="Luis Morales" ValorDocIdentidad="7-7890-1234" FechaNacimiento="1976-11-30" NombreUsuario="lmorales" Password="hola123" />
+			<NTH Nombre="Gabriela Soto" ValorDocIdentidad="8-8901-2345" FechaNacimiento="1977-08-18" NombreUsuario="gsoto" Password="hola123" />
+			<NTH Nombre="Fernando López" ValorDocIdentidad="9-9012-3456" FechaNacimiento="1978-01-05" NombreUsuario="flópez" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="43594" TipoTCM="Oro" LimiteCredito="5000000" TH="4-4567-8901" />
+			<NTCM Codigo="43710" TipoTCM="Corporativo" LimiteCredito="10000000" TH="6-6789-0123" />
+			<NTCM Codigo="64935" TipoTCM="Platino" LimiteCredito="7000000" TH="8-8901-2345" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="64935" CodigoTCA="64694" TH="5-5678-9012" />
+			<NTCA CodigoTCM="43710" CodigoTCA="81520" TH="7-7890-1234" />
+			<NTCA CodigoTCM="43710" CodigoTCA="81602" TH="9-9012-3456" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="3488477239742811" TCAsociada="64935" FechaVencimiento="9/2026" CCV="6261" />
+			<NTF Codigo="2794325256592805" TCAsociada="43594" FechaVencimiento="5/2027" CCV="7800" />
+			<NTF Codigo="5585087340448535" TCAsociada="64694" FechaVencimiento="7/2026" CCV="6320" />
+			<NTF Codigo="5395554230644494" TCAsociada="81602" FechaVencimiento="8/2026" CCV="3333" />
+			<NTF Codigo="8371868300839996" TCAsociada="81520" FechaVencimiento="5/2028" CCV="1115" />
+			<NTF Codigo="4286961520207211" TCAsociada="43710" FechaVencimiento="12/2026" CCV="1615" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="5373571423133445" FechaMovimiento="2024-01-05" Monto="42875" Descripcion="ATM de Alajuela" Referencia="63FIB" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="7407888157510632" FechaMovimiento="2024-01-05" Monto="0" Descripcion="Walmart en Heredia" Referencia="292BK" />
+			<Movimiento Nombre="Recuperacion por Robo" TF="4286961520207211" FechaMovimiento="2024-01-05" Monto="0" Descripcion="ATM de Palmares" Referencia="C4HO1" />
+			<Movimiento Nombre="Retiro en Ventana" TF="7407888157510632" FechaMovimiento="2024-01-05" Monto="40260" Descripcion="Walmart en Quepos" Referencia="LROAI" />
+			<Movimiento Nombre="Renovacion de TF" TF="2855446415731838" FechaMovimiento="2024-01-05" Monto="19263" Descripcion="Walmart en Quepos" Referencia="25GMQ" />
+			<Movimiento Nombre="Renovacion de TF" TF="3488477239742811" FechaMovimiento="2024-01-05" Monto="81796" Descripcion="Sucursal en Cartago" Referencia="Y8TLR" />
+			<Movimiento Nombre="Retiro en Ventana" TF="2794325256592805" FechaMovimiento="2024-01-05" Monto="14905" Descripcion="En Upala" Referencia="QACA5" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="5585087340448535" FechaMovimiento="2024-01-05" Monto="80575" Descripcion="Walmart en Santa Cruz" Referencia="C4IVG" />
+			<Movimiento Nombre="Retiro en Ventana" TF="1524776262565386" FechaMovimiento="2024-01-05" Monto="29334" Descripcion="Sucursal en Talamanca" Referencia="LKHS2" />
+			<Movimiento Nombre="Retiro en Ventana" TF="9982757494520271" FechaMovimiento="2024-01-05" Monto="18377" Descripcion="En Naranjo" Referencia="DWYMZ" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="5655636577940569" FechaMovimiento="2024-01-05" Monto="94462" Descripcion="Walmart en San Rafael" Referencia="YPO39" />
+			<Movimiento Nombre="Recuperacion por Robo" TF="9982757494520271" FechaMovimiento="2024-01-05" Monto="0" Descripcion="ATM de Grecia" Referencia="FUQPS" />
+			<Movimiento Nombre="Cargos por Servicio" TF="5373571423133445" FechaMovimiento="2024-01-05" Monto="57818" Descripcion="En Corredores" Referencia="HKQDM" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="8371868300839996" FechaMovimiento="2024-01-05" Monto="76003" Descripcion="Walmart en Cartago" Referencia="I9FDN" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="6582011518402719" FechaMovimiento="2024-01-05" Monto="86955" Descripcion="En Santa Ana" Referencia="6V92Z" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-08">
+		<NTH>
+			<NTH Nombre="Isabela Cervantes" ValorDocIdentidad="1-0123-4567" FechaNacimiento="1979-07-23" NombreUsuario="icervantes" Password="hola123" />
+			<NTH Nombre="Alejandro Rojas" ValorDocIdentidad="2-1234-5678" FechaNacimiento="1980-04-12" NombreUsuario="arojas" Password="hola123" />
+			<NTH Nombre="Renata Reyes" ValorDocIdentidad="3-2345-6789" FechaNacimiento="1981-09-01" NombreUsuario="rreyes" Password="hola123" />
+			<NTH Nombre="Manuel Vega" ValorDocIdentidad="4-3456-7890" FechaNacimiento="1982-05-17" NombreUsuario="mvega" Password="hola123" />
+			<NTH Nombre="Sara Guerrero" ValorDocIdentidad="5-4567-8901" FechaNacimiento="1983-12-25" NombreUsuario="sguerrero" Password="hola123" />
+			<NTH Nombre="Ángel Hernández" ValorDocIdentidad="6-5678-9012" FechaNacimiento="1984-02-27" NombreUsuario="áhernández" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="37986" TipoTCM="Platino" LimiteCredito="7000000" TH="1-0123-4567" />
+			<NTCM Codigo="38125" TipoTCM="Corporativo" LimiteCredito="10000000" TH="2-1234-5678" />
+			<NTCM Codigo="81876" TipoTCM="Oro" LimiteCredito="5000000" TH="3-2345-6789" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="37986" CodigoTCA="87076" TH="5-4567-8901" />
+			<NTCA CodigoTCM="37986" CodigoTCA="47837" TH="4-3456-7890" />
+			<NTCA CodigoTCM="37986" CodigoTCA="33134" TH="6-5678-9012" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="4366645788435358" TCAsociada="37986" FechaVencimiento="4/2026" CCV="4925" />
+			<NTF Codigo="7400420298822588" TCAsociada="81876" FechaVencimiento="5/2026" CCV="3903" />
+			<NTF Codigo="2668231324191095" TCAsociada="38125" FechaVencimiento="8/2028" CCV="1401" />
+			<NTF Codigo="6418223953029167" TCAsociada="47837" FechaVencimiento="7/2027" CCV="3319" />
+			<NTF Codigo="1694998673342057" TCAsociada="87076" FechaVencimiento="9/2028" CCV="2176" />
+			<NTF Codigo="2810488571833172" TCAsociada="33134" FechaVencimiento="9/2026" CCV="5204" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="2668231324191095" FechaMovimiento="2024-01-08" Monto="45194" Descripcion="En Ciudad Quesada" Referencia="H3M4W" />
+			<Movimiento Nombre="Retiro en ATM" TF="8978920513967653" FechaMovimiento="2024-01-08" Monto="74285" Descripcion="En Curridabat" Referencia="C4IVG" />
+			<Movimiento Nombre="Compra" TF="7407888157510632" FechaMovimiento="2024-01-08" Monto="62373" Descripcion="En Curridabat" Referencia="S9LVC" />
+			<Movimiento Nombre="Pago en Linea" TF="9982757494520271" FechaMovimiento="2024-01-08" Monto="55252" Descripcion="ATM de Desamparados" Referencia="HXER6" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="4286961520207211" FechaMovimiento="2024-01-08" Monto="39866" Descripcion="Sucursal en Golfito" Referencia="GRVSG" />
+			<Movimiento Nombre="Cargos por Servicio" TF="1694998673342057" FechaMovimiento="2024-01-08" Monto="41715" Descripcion="En Santo Tomás" Referencia="A9QZN" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="8371868300839996" FechaMovimiento="2024-01-08" Monto="0" Descripcion="En Ciudad Colón" Referencia="C4IVG" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="5655636577940569" FechaMovimiento="2024-01-08" Monto="26461" Descripcion="ATM de Pococí" Referencia="P8YDZ" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="5655636577940569" FechaMovimiento="2024-01-08" Monto="99495" Descripcion="En Curridabat" Referencia="5CHB7" />
+			<Movimiento Nombre="Compra" TF="1694998673342057" FechaMovimiento="2024-01-08" Monto="22044" Descripcion="Sucursal en Quepos" Referencia="C4IVG" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="7407888157510632" FechaMovimiento="2024-01-08" Monto="55037" Descripcion="ATM de Barva" Referencia="9B103" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="7407888157510632" FechaMovimiento="2024-01-08" Monto="0" Descripcion="Walmart en Nicoya" Referencia="LDZMP" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="8371868300839996" FechaMovimiento="2024-01-08" Monto="99929" Descripcion="Sucursal en Pérez Zeledón" Referencia="0T56Q" />
+			<Movimiento Nombre="Pago en ATM" TF="6418223953029167" FechaMovimiento="2024-01-08" Monto="74065" Descripcion="En Santa Ana" Referencia="JB8MG" />
+			<Movimiento Nombre="Retiro en Ventana" TF="7400420298822588" FechaMovimiento="2024-01-08" Monto="25516" Descripcion="En Pococí" Referencia="Y4CYA" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-10">
+		<NTH>
+			<NTH Nombre="Martina Fuentes" ValorDocIdentidad="7-6789-0123" FechaNacimiento="1985-10-30" NombreUsuario="mfuentes" Password="hola123" />
+			<NTH Nombre="Raúl Medina" ValorDocIdentidad="8-7890-1234" FechaNacimiento="1986-07-06" NombreUsuario="rmedina" Password="hola123" />
+			<NTH Nombre="Carolina Campos" ValorDocIdentidad="9-8901-2345" FechaNacimiento="1987-11-13" NombreUsuario="ccampos" Password="hola123" />
+			<NTH Nombre="Joaquín Espinoza" ValorDocIdentidad="1-9012-3456" FechaNacimiento="1988-06-09" NombreUsuario="jespinoza" Password="hola123" />
+			<NTH Nombre="Lucía Rivera" ValorDocIdentidad="2-0123-4567" FechaNacimiento="1989-01-28" NombreUsuario="lrivera" Password="hola123" />
+			<NTH Nombre="Emiliano Nuñez" ValorDocIdentidad="3-1234-5678" FechaNacimiento="1990-03-22" NombreUsuario="enuñez" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="37864" TipoTCM="Oro" LimiteCredito="5000000" TH="8-7890-1234" />
+			<NTCM Codigo="36160" TipoTCM="Platino" LimiteCredito="7000000" TH="1-9012-3456" />
+			<NTCM Codigo="16976" TipoTCM="Corporativo" LimiteCredito="10000000" TH="2-0123-4567" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="16976" CodigoTCA="83264" TH="7-6789-0123" />
+			<NTCA CodigoTCM="37864" CodigoTCA="75456" TH="9-8901-2345" />
+			<NTCA CodigoTCM="37864" CodigoTCA="69365" TH="3-1234-5678" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="9426782141767763" TCAsociada="83264" FechaVencimiento="6/2027" CCV="6221" />
+			<NTF Codigo="5538858134303627" TCAsociada="16976" FechaVencimiento="9/2028" CCV="3967" />
+			<NTF Codigo="2315327303879021" TCAsociada="37864" FechaVencimiento="8/2026" CCV="7385" />
+			<NTF Codigo="2383056325654095" TCAsociada="75456" FechaVencimiento="11/2027" CCV="6760" />
+			<NTF Codigo="7137219698255989" TCAsociada="69365" FechaVencimiento="11/2026" CCV="2455" />
+			<NTF Codigo="7634009855741021" TCAsociada="36160" FechaVencimiento="8/2026" CCV="3068" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Retiro en ATM" TF="6418223953029167" FechaMovimiento="2024-01-10" Monto="9165" Descripcion="Walmart en San Carlos" Referencia="9X2UG" />
+			<Movimiento Nombre="Pago en Linea" TF="5134942862922132" FechaMovimiento="2024-01-10" Monto="71325" Descripcion="En Limón" Referencia="DX7H6" />
+			<Movimiento Nombre="Pago en Linea" TF="9426782141767763" FechaMovimiento="2024-01-10" Monto="69100" Descripcion="En Tibás" Referencia="66P34" />
+			<Movimiento Nombre="Pago en Linea" TF="8371868300839996" FechaMovimiento="2024-01-10" Monto="49055" Descripcion="Sucursal en Palmares" Referencia="NP2LQ" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="4366645788435358" FechaMovimiento="2024-01-10" Monto="67499" Descripcion="ATM de Palmares" Referencia="742IF" />
+			<Movimiento Nombre="Pago en ATM" TF="7634009855741021" FechaMovimiento="2024-01-10" Monto="98817" Descripcion="Walmart en Quepos" Referencia="TUX0J" />
+			<Movimiento Nombre="Pago en Linea" TF="5585087340448535" FechaMovimiento="2024-01-10" Monto="89617" Descripcion="ATM de San Ramón" Referencia="S9LVC" />
+			<Movimiento Nombre="Pago en Linea" TF="5134942862922132" FechaMovimiento="2024-01-10" Monto="95418" Descripcion="ATM de San Pablo" Referencia="JB8MG" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="2794325256592805" FechaMovimiento="2024-01-10" Monto="72531" Descripcion="ATM de San Carlos" Referencia="FHV9M" />
+			<Movimiento Nombre="Retiro en ATM" TF="2810488571833172" FechaMovimiento="2024-01-10" Monto="72860" Descripcion="ATM de Pérez Zeledón" Referencia="0T56Q" />
+			<Movimiento Nombre="Renovacion de TF" TF="2668231324191095" FechaMovimiento="2024-01-10" Monto="81681" Descripcion="En Upala" Referencia="Q6DO8" />
+			<Movimiento Nombre="Compra" TF="4366645788435358" FechaMovimiento="2024-01-10" Monto="95566" Descripcion="Walmart en Goicoechea" Referencia="K9J0Y" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="2855446415731838" FechaMovimiento="2024-01-10" Monto="0" Descripcion="Sucursal en Turrialba" Referencia="L7ZN3" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="4366645788435358" FechaMovimiento="2024-01-10" Monto="25058" Descripcion="Walmart en San Carlos" Referencia="RNP5C" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="2810488571833172" FechaMovimiento="2024-01-10" Monto="52736" Descripcion="Walmart en Santa Cruz" Referencia="H3M4W" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-12">
+		<NTH>
+			<NTH Nombre="Vanessa Gallegos" ValorDocIdentidad="4-2345-6789" FechaNacimiento="1991-10-18" NombreUsuario="vgallegos" Password="hola123" />
+			<NTH Nombre="Sebastián Vázquez" ValorDocIdentidad="5-3456-7890" FechaNacimiento="1992-08-04" NombreUsuario="svázquez" Password="hola123" />
+			<NTH Nombre="Patricia Luna" ValorDocIdentidad="6-4567-8901" FechaNacimiento="1993-04-26" NombreUsuario="pluna" Password="hola123" />
+			<NTH Nombre="Enrique Valencia" ValorDocIdentidad="7-5678-9012" FechaNacimiento="1994-09-11" NombreUsuario="evalencia" Password="hola123" />
+			<NTH Nombre="Mariana Quintero" ValorDocIdentidad="8-6789-0123" FechaNacimiento="1995-07-15" NombreUsuario="mquintero" Password="hola123" />
+			<NTH Nombre="Hugo Lara" ValorDocIdentidad="9-7890-1234" FechaNacimiento="1996-01-07" NombreUsuario="hlara" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="11231" TipoTCM="Corporativo" LimiteCredito="10000000" TH="4-2345-6789" />
+			<NTCM Codigo="52534" TipoTCM="Oro" LimiteCredito="5000000" TH="6-4567-8901" />
+			<NTCM Codigo="58784" TipoTCM="Oro" LimiteCredito="5000000" TH="8-6789-0123" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="11231" CodigoTCA="78583" TH="9-7890-1234" />
+			<NTCA CodigoTCM="52534" CodigoTCA="31836" TH="7-5678-9012" />
+			<NTCA CodigoTCM="52534" CodigoTCA="52192" TH="5-3456-7890" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="1907420611820113" TCAsociada="11231" FechaVencimiento="10/2026" CCV="5976" />
+			<NTF Codigo="3620383385494061" TCAsociada="52534" FechaVencimiento="8/2027" CCV="9288" />
+			<NTF Codigo="8348133262205011" TCAsociada="58784" FechaVencimiento="12/2027" CCV="1950" />
+			<NTF Codigo="8796152434508582" TCAsociada="78583" FechaVencimiento="6/2026" CCV="8285" />
+			<NTF Codigo="2197620817888201" TCAsociada="52192" FechaVencimiento="12/2028" CCV="7541" />
+			<NTF Codigo="8603018352074994" TCAsociada="31836" FechaVencimiento="1/2026" CCV="2082" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Renovacion de TF" TF="6582011518402719" FechaMovimiento="2024-01-12" Monto="83776" Descripcion="ATM de Pavas" Referencia="HXER6" />
+			<Movimiento Nombre="Retiro en Ventana" TF="7634009855741021" FechaMovimiento="2024-01-12" Monto="45881" Descripcion="Sucursal en Coto Brus" Referencia="H3M4W" />
+			<Movimiento Nombre="Cargos por Servicio" TF="1907420611820113" FechaMovimiento="2024-01-12" Monto="66671" Descripcion="ATM de Liberia" Referencia="9PBZZ" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="2855446415731838" FechaMovimiento="2024-01-12" Monto="22527" Descripcion="Sucursal en Cañas" Referencia="Q86XL" />
+			<Movimiento Nombre="Renovacion de TF" TF="5373571423133445" FechaMovimiento="2024-01-12" Monto="44174" Descripcion="Sucursal en Palmares" Referencia="0HKPQ" />
+			<Movimiento Nombre="Retiro en ATM" TF="2668231324191095" FechaMovimiento="2024-01-12" Monto="63299" Descripcion="En Limón" Referencia="6CNN0" />
+			<Movimiento Nombre="Renovacion de TF" TF="7407888157510632" FechaMovimiento="2024-01-12" Monto="47320" Descripcion="En Palmares" Referencia="L7ZN3" />
+			<Movimiento Nombre="Retiro en ATM" TF="2256488286809408" FechaMovimiento="2024-01-12" Monto="84599" Descripcion="Walmart en San Isidro" Referencia="95BE5" />
+			<Movimiento Nombre="Renovacion de TF" TF="9585994043536904" FechaMovimiento="2024-01-12" Monto="47126" Descripcion="Sucursal en San Ramón" Referencia="C4IVG" />
+			<Movimiento Nombre="Renovacion de TF" TF="2810488571833172" FechaMovimiento="2024-01-12" Monto="42788" Descripcion="ATM de Pérez Zeledón" Referencia="OJEJ1" />
+			<Movimiento Nombre="Retiro en ATM" TF="7400420298822588" FechaMovimiento="2024-01-12" Monto="27818" Descripcion="Sucursal en Santa Ana" Referencia="AXZ0I" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="2855446415731838" FechaMovimiento="2024-01-12" Monto="50308" Descripcion="Walmart en Parrita" Referencia="JVMNJ" />
+			<Movimiento Nombre="Pago en ATM" TF="3620383385494061" FechaMovimiento="2024-01-12" Monto="54354" Descripcion="Sucursal en Heredia" Referencia="94VNQ" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="1524776262565386" FechaMovimiento="2024-01-12" Monto="16084" Descripcion="En San Carlos" Referencia="AQTK3" />
+			<Movimiento Nombre="Recuperacion por Robo" TF="1694998673342057" FechaMovimiento="2024-01-12" Monto="0" Descripcion="Sucursal en Puriscal" Referencia="LTZE5" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-15">
+		<NTH>
+			<NTH Nombre="Claudia Vargas" ValorDocIdentidad="1-8901-2345" FechaNacimiento="1997-11-02" NombreUsuario="cvargas" Password="hola123" />
+			<NTH Nombre="Iván Álvarez" ValorDocIdentidad="2-9012-3456" FechaNacimiento="1998-05-21" NombreUsuario="iálvarez" Password="hola123" />
+			<NTH Nombre="Fernanda Ramírez" ValorDocIdentidad="3-0123-4567" FechaNacimiento="1999-03-15" NombreUsuario="framírez" Password="hola123" />
+			<NTH Nombre="Javier Muñoz" ValorDocIdentidad="4-1234-5678" FechaNacimiento="2000-08-29" NombreUsuario="jmuñoz" Password="hola123" />
+			<NTH Nombre="Natalia Romero" ValorDocIdentidad="5-2345-6789" FechaNacimiento="2001-02-13" NombreUsuario="nromero" Password="hola123" />
+			<NTH Nombre="Samuel Serrano" ValorDocIdentidad="6-3456-7890" FechaNacimiento="2002-12-09" NombreUsuario="sserrano" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="12237" TipoTCM="Oro" LimiteCredito="5000000" TH="6-3456-7890" />
+			<NTCM Codigo="60827" TipoTCM="Platino" LimiteCredito="7000000" TH="3-0123-4567" />
+			<NTCM Codigo="28046" TipoTCM="Oro" LimiteCredito="5000000" TH="4-1234-5678" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="28046" CodigoTCA="40552" TH="2-9012-3456" />
+			<NTCA CodigoTCM="12237" CodigoTCA="94705" TH="5-2345-6789" />
+			<NTCA CodigoTCM="12237" CodigoTCA="39994" TH="1-8901-2345" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="7343138089572132" TCAsociada="28046" FechaVencimiento="8/2028" CCV="2204" />
+			<NTF Codigo="4202962751833120" TCAsociada="39994" FechaVencimiento="9/2028" CCV="6751" />
+			<NTF Codigo="9544162405780883" TCAsociada="12237" FechaVencimiento="10/2028" CCV="3793" />
+			<NTF Codigo="5508364630862234" TCAsociada="60827" FechaVencimiento="1/2026" CCV="1513" />
+			<NTF Codigo="2337742938367048" TCAsociada="94705" FechaVencimiento="9/2026" CCV="8918" />
+			<NTF Codigo="3549875182800350" TCAsociada="40552" FechaVencimiento="4/2027" CCV="6028" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="4202962751833120" FechaMovimiento="2024-01-15" Monto="96152" Descripcion="Walmart en Orotina" Referencia="XE6IP" />
+			<Movimiento Nombre="Pago en Linea" TF="5525247354599728" FechaMovimiento="2024-01-15" Monto="18895" Descripcion="ATM de Orotina" Referencia="HIWF5" />
+			<Movimiento Nombre="Retiro en Ventana" TF="7343138089572132" FechaMovimiento="2024-01-15" Monto="40180" Descripcion="En Corredores" Referencia="72GB4" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="9426782141767763" FechaMovimiento="2024-01-15" Monto="66520" Descripcion="Sucursal en Turrialba" Referencia="DX7H6" />
+			<Movimiento Nombre="Pago en Linea" TF="4286961520207211" FechaMovimiento="2024-01-15" Monto="35171" Descripcion="Sucursal en Coto Brus" Referencia="H9WG6" />
+			<Movimiento Nombre="Renovacion de TF" TF="8371868300839996" FechaMovimiento="2024-01-15" Monto="88668" Descripcion="En Esparza" Referencia="C3Y4I" />
+			<Movimiento Nombre="Retiro en ATM" TF="5538858134303627" FechaMovimiento="2024-01-15" Monto="38863" Descripcion="En Goicoechea" Referencia="FLA89" />
+			<Movimiento Nombre="Pago en ATM" TF="6582011518402719" FechaMovimiento="2024-01-15" Monto="68886" Descripcion="Sucursal en Puntarenas" Referencia="DNDWH" />
+			<Movimiento Nombre="Recuperacion por Robo" TF="2197620817888201" FechaMovimiento="2024-01-15" Monto="0" Descripcion="Walmart en San Isidro" Referencia="FLA89" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="5538858134303627" FechaMovimiento="2024-01-15" Monto="36635" Descripcion="Sucursal en Talamanca" Referencia="3BYHP" />
+			<Movimiento Nombre="Pago en Linea" TF="9982757494520271" FechaMovimiento="2024-01-15" Monto="89555" Descripcion="Walmart en Santa Cruz" Referencia="HKZTI" />
+			<Movimiento Nombre="Retiro en ATM" TF="5508364630862234" FechaMovimiento="2024-01-15" Monto="81381" Descripcion="En Limón" Referencia="48PQU" />
+			<Movimiento Nombre="Cargos por Servicio" TF="7343138089572132" FechaMovimiento="2024-01-15" Monto="32927" Descripcion="Walmart en Coronado" Referencia="DKT4I" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="7137219698255989" FechaMovimiento="2024-01-15" Monto="19116" Descripcion="Sucursal en San Pablo" Referencia="742IF" />
+			<Movimiento Nombre="Compra" TF="3620383385494061" FechaMovimiento="2024-01-15" Monto="19373" Descripcion="ATM de San Ramón" Referencia="H9I2M" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-18">
+		<NTH>
+			<NTH Nombre="Carmen Ibáñez" ValorDocIdentidad="7-4567-8901" FechaNacimiento="2003-06-28" NombreUsuario="cibáñez" Password="hola123" />
+			<NTH Nombre="Mario Salazar" ValorDocIdentidad="8-5678-9012" FechaNacimiento="2004-10-19" NombreUsuario="msalazar" Password="hola123" />
+			<NTH Nombre="Elisa Benítez" ValorDocIdentidad="9-6789-0123" FechaNacimiento="1960-12-01" NombreUsuario="ebenítez" Password="hola123" />
+			<NTH Nombre="Alfredo Carrillo" ValorDocIdentidad="1-7890-1234" FechaNacimiento="1961-09-05" NombreUsuario="acarrillo" Password="hola123" />
+			<NTH Nombre="Diana Murillo" ValorDocIdentidad="2-8901-2345" FechaNacimiento="1962-03-18" NombreUsuario="dmurillo" Password="hola123" />
+			<NTH Nombre="Rodrigo Mora" ValorDocIdentidad="3-9012-3456" FechaNacimiento="1963-11-14" NombreUsuario="rmora" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="34398" TipoTCM="Corporativo" LimiteCredito="10000000" TH="7-4567-8901" />
+			<NTCM Codigo="89280" TipoTCM="Corporativo" LimiteCredito="10000000" TH="1-7890-1234" />
+			<NTCM Codigo="99933" TipoTCM="Oro" LimiteCredito="5000000" TH="3-9012-3456" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="89280" CodigoTCA="52294" TH="8-5678-9012" />
+			<NTCA CodigoTCM="99933" CodigoTCA="56079" TH="9-6789-0123" />
+			<NTCA CodigoTCM="34398" CodigoTCA="68758" TH="2-8901-2345" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="4942959873940953" TCAsociada="89280" FechaVencimiento="5/2026" CCV="1733" />
+			<NTF Codigo="8965023215396559" TCAsociada="68758" FechaVencimiento="8/2027" CCV="5905" />
+			<NTF Codigo="5567712895594397" TCAsociada="56079" FechaVencimiento="11/2028" CCV="8976" />
+			<NTF Codigo="8215484693274147" TCAsociada="52294" FechaVencimiento="5/2027" CCV="5132" />
+			<NTF Codigo="5803553421157083" TCAsociada="34398" FechaVencimiento="2/2027" CCV="4333" />
+			<NTF Codigo="8537718971978825" TCAsociada="99933" FechaVencimiento="9/2027" CCV="4282" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Recuperacion por Perdida" TF="5395554230644494" FechaMovimiento="2024-01-18" Monto="0" Descripcion="ATM de Palmares" Referencia="ZXLM1" />
+			<Movimiento Nombre="Cargos por Servicio" TF="4286961520207211" FechaMovimiento="2024-01-18" Monto="27473" Descripcion="Sucursal en Puriscal" Referencia="PQQ60" />
+			<Movimiento Nombre="Pago en Linea" TF="7137219698255989" FechaMovimiento="2024-01-18" Monto="74168" Descripcion="Sucursal en Santa Ana" Referencia="9PBZZ" />
+			<Movimiento Nombre="Pago en Linea" TF="1694998673342057" FechaMovimiento="2024-01-18" Monto="56426" Descripcion="En Ciudad Quesada" Referencia="31G0E" />
+			<Movimiento Nombre="Renovacion de TF" TF="8537718971978825" FechaMovimiento="2024-01-18" Monto="23245" Descripcion="Sucursal en Cañas" Referencia="L7ZN3" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="3620383385494061" FechaMovimiento="2024-01-18" Monto="56429" Descripcion="Walmart en Orotina" Referencia="292BK" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="8603018352074994" FechaMovimiento="2024-01-18" Monto="72056" Descripcion="En San Rafael" Referencia="SYH0D" />
+			<Movimiento Nombre="Pago en Linea" TF="6582011518402719" FechaMovimiento="2024-01-18" Monto="25664" Descripcion="En Palmares" Referencia="34UXP" />
+			<Movimiento Nombre="Retiro en Ventana" TF="7400420298822588" FechaMovimiento="2024-01-18" Monto="75598" Descripcion="En Pococí" Referencia="DX7H6" />
+			<Movimiento Nombre="Retiro en ATM" TF="8215484693274147" FechaMovimiento="2024-01-18" Monto="95607" Descripcion="ATM de San José" Referencia="DNDWH" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="2315327303879021" FechaMovimiento="2024-01-18" Monto="0" Descripcion="ATM de Moravia" Referencia="HXER6" />
+			<Movimiento Nombre="Recuperacion por Robo" TF="1524776262565386" FechaMovimiento="2024-01-18" Monto="0" Descripcion="En San Rafael" Referencia="VGN2P" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="3549875182800350" FechaMovimiento="2024-01-18" Monto="0" Descripcion="Walmart en Cartago" Referencia="PQQ60" />
+			<Movimiento Nombre="Retiro en Ventana" TF="8371868300839996" FechaMovimiento="2024-01-18" Monto="95922" Descripcion="ATM de Moravia" Referencia="Q86XL" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="2855446415731838" FechaMovimiento="2024-01-18" Monto="84785" Descripcion="En Santo Tomás" Referencia="3BYHP" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-22">
+		<NTH>
+			<NTH Nombre="Estefanía Herrera" ValorDocIdentidad="4-0123-4567" FechaNacimiento="1964-07-02" NombreUsuario="eherrera" Password="hola123" />
+			<NTH Nombre="Felipe Pacheco" ValorDocIdentidad="5-1234-5678" FechaNacimiento="1965-05-10" NombreUsuario="fpacheco" Password="hola123" />
+			<NTH Nombre="Lorena Medrano" ValorDocIdentidad="6-2345-6789" FechaNacimiento="1966-02-23" NombreUsuario="lmedrano" Password="hola123" />
+			<NTH Nombre="Adán Castañeda" ValorDocIdentidad="7-3456-7890" FechaNacimiento="1967-12-07" NombreUsuario="acastañeda" Password="hola123" />
+			<NTH Nombre="Mireya Navarro" ValorDocIdentidad="8-4567-8901" FechaNacimiento="1968-08-27" NombreUsuario="mnavarro" Password="hola123" />
+			<NTH Nombre="Tomás Acevedo" ValorDocIdentidad="9-5678-9012" FechaNacimiento="1969-06-06" NombreUsuario="tacevedo" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="23045" TipoTCM="Platino" LimiteCredito="7000000" TH="5-1234-5678" />
+			<NTCM Codigo="40123" TipoTCM="Platino" LimiteCredito="7000000" TH="4-0123-4567" />
+			<NTCM Codigo="29777" TipoTCM="Oro" LimiteCredito="5000000" TH="6-2345-6789" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="23045" CodigoTCA="14675" TH="9-5678-9012" />
+			<NTCA CodigoTCM="29777" CodigoTCA="67290" TH="7-3456-7890" />
+			<NTCA CodigoTCM="40123" CodigoTCA="82457" TH="8-4567-8901" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="4921641842263358" TCAsociada="40123" FechaVencimiento="10/2028" CCV="9217" />
+			<NTF Codigo="8414782667197000" TCAsociada="82457" FechaVencimiento="3/2027" CCV="6991" />
+			<NTF Codigo="1024221161988034" TCAsociada="29777" FechaVencimiento="2/2026" CCV="3809" />
+			<NTF Codigo="9078479609413928" TCAsociada="14675" FechaVencimiento="3/2027" CCV="2612" />
+			<NTF Codigo="7138407337257722" TCAsociada="23045" FechaVencimiento="8/2026" CCV="7892" />
+			<NTF Codigo="2994043263109333" TCAsociada="67290" FechaVencimiento="9/2027" CCV="9287" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Pago en ATM" TF="7343138089572132" FechaMovimiento="2024-01-22" Monto="90043" Descripcion="Walmart en Nicoya" Referencia="0T56Q" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="8414782667197000" FechaMovimiento="2024-01-22" Monto="70648" Descripcion="ATM de Barva" Referencia="Q1J9Z" />
+			<Movimiento Nombre="Retiro en Ventana" TF="2256488286809408" FechaMovimiento="2024-01-22" Monto="68074" Descripcion="En Tibás" Referencia="IJME6" />
+			<Movimiento Nombre="Retiro en ATM" TF="3620383385494061" FechaMovimiento="2024-01-22" Monto="78047" Descripcion="ATM de Palmares" Referencia="JQXP6" />
+			<Movimiento Nombre="Pago en Linea" TF="3549875182800350" FechaMovimiento="2024-01-22" Monto="59081" Descripcion="En Naranjo" Referencia="FLA89" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="2855446415731838" FechaMovimiento="2024-01-22" Monto="55778" Descripcion="Sucursal en Parrita" Referencia="AEGMM" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="5134942862922132" FechaMovimiento="2024-01-22" Monto="0" Descripcion="Walmart en San Carlos" Referencia="H9I2M" />
+			<Movimiento Nombre="Pago en Linea" TF="5134942862922132" FechaMovimiento="2024-01-22" Monto="69573" Descripcion="En San Carlos" Referencia="ADZV6" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="8965023215396559" FechaMovimiento="2024-01-22" Monto="0" Descripcion="En Alajuela" Referencia="IOOP2" />
+			<Movimiento Nombre="Compra" TF="2994043263109333" FechaMovimiento="2024-01-22" Monto="82093" Descripcion="En Atenas" Referencia="MWBD2" />
+			<Movimiento Nombre="Retiro en Ventana" TF="2668231324191095" FechaMovimiento="2024-01-22" Monto="76579" Descripcion="En Santo Domingo" Referencia="C3Y4I" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="5567712895594397" FechaMovimiento="2024-01-22" Monto="55207" Descripcion="ATM de Barva" Referencia="LROAI" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso Ventana" TF="1694998673342057" FechaMovimiento="2024-01-22" Monto="18171" Descripcion="ATM de Escazú" Referencia="6V92Z" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="4202962751833120" FechaMovimiento="2024-01-22" Monto="95210" Descripcion="ATM de Liberia" Referencia="GRVSG" />
+			<Movimiento Nombre="Intereses Moratorios Pago no Realizado" TF="1024221161988034" FechaMovimiento="2024-01-22" Monto="56440" Descripcion="Sucursal en Escazú" Referencia="H3NY5" />
+		</Movimiento>
+	</fechaOperacion>
+	<fechaOperacion Fecha="2024-01-25">
+		<NTH>
+			<NTH Nombre="Adriana Rentería" ValorDocIdentidad="1-6789-0123" FechaNacimiento="1970-04-11" NombreUsuario="arentería" Password="hola123" />
+			<NTH Nombre="David Palacios" ValorDocIdentidad="2-7890-1234" FechaNacimiento="1971-10-24" NombreUsuario="dpalacios" Password="hola123" />
+			<NTH Nombre="Sandra Padilla" ValorDocIdentidad="3-8901-2345" FechaNacimiento="1972-01-18" NombreUsuario="spadilla" Password="hola123" />
+			<NTH Nombre="Marcos Villanueva" ValorDocIdentidad="4-9012-3456" FechaNacimiento="1973-05-29" NombreUsuario="mvillanueva" Password="hola123" />
+			<NTH Nombre="Leticia Salinas" ValorDocIdentidad="5-0123-4567" FechaNacimiento="1974-03-07" NombreUsuario="lsalinas" Password="hola123" />
+			<NTH Nombre="Simón Sandoval" ValorDocIdentidad="6-1234-5678" FechaNacimiento="1975-08-31" NombreUsuario="ssandoval" Password="hola123" />
+		</NTH>
+		<NTCM>
+			<NTCM Codigo="40862" TipoTCM="Corporativo" LimiteCredito="10000000" TH="2-7890-1234" />
+			<NTCM Codigo="65169" TipoTCM="Oro" LimiteCredito="5000000" TH="1-6789-0123" />
+			<NTCM Codigo="40287" TipoTCM="Platino" LimiteCredito="7000000" TH="4-9012-3456" />
+		</NTCM>
+		<NTCA>
+			<NTCA CodigoTCM="40862" CodigoTCA="33867" TH="6-1234-5678" />
+			<NTCA CodigoTCM="40862" CodigoTCA="19486" TH="3-8901-2345" />
+			<NTCA CodigoTCM="65169" CodigoTCA="12601" TH="5-0123-4567" />
+		</NTCA>
+		<NTF>
+			<NTF Codigo="6839292845612518" TCAsociada="33867" FechaVencimiento="4/2028" CCV="9454" />
+			<NTF Codigo="8623830344665929" TCAsociada="12601" FechaVencimiento="9/2026" CCV="5913" />
+			<NTF Codigo="6842362296565369" TCAsociada="65169" FechaVencimiento="6/2027" CCV="5005" />
+			<NTF Codigo="7512087167495630" TCAsociada="40862" FechaVencimiento="4/2028" CCV="1164" />
+			<NTF Codigo="1172092706246620" TCAsociada="19486" FechaVencimiento="2/2027" CCV="4779" />
+			<NTF Codigo="7875286369977780" TCAsociada="40287" FechaVencimiento="10/2027" CCV="1226" />
+		</NTF>
+		<Movimiento>
+			<Movimiento Nombre="Pago en ATM" TF="9544162405780883" FechaMovimiento="2024-01-25" Monto="22310" Descripcion="En Bagaces" Referencia="31G0E" />
+			<Movimiento Nombre="Retiro en Ventana" TF="6582011518402719" FechaMovimiento="2024-01-25" Monto="26095" Descripcion="ATM de Pavas" Referencia="NDECS" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="5395554230644494" FechaMovimiento="2024-01-25" Monto="0" Descripcion="En Palmares" Referencia="EQKNP" />
+			<Movimiento Nombre="Compra" TF="1907420611820113" FechaMovimiento="2024-01-25" Monto="34256" Descripcion="ATM de Orotina" Referencia="63FIB" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="2256488286809408" FechaMovimiento="2024-01-25" Monto="0" Descripcion="ATM de Pavas" Referencia="9PBZZ" />
+			<Movimiento Nombre="Cargos por Multa Exceso Uso ATM" TF="7634009855741021" FechaMovimiento="2024-01-25" Monto="63592" Descripcion="ATM de Grecia" Referencia="72GB4" />
+			<Movimiento Nombre="Pago en Linea" TF="7634009855741021" FechaMovimiento="2024-01-25" Monto="84465" Descripcion="ATM de Tibás" Referencia="HIWF5" />
+			<Movimiento Nombre="Recuperacion por Robo" TF="8978920513967653" FechaMovimiento="2024-01-25" Monto="0" Descripcion="Walmart en Orotina" Referencia="L7ZN3" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="6842362296565369" FechaMovimiento="2024-01-25" Monto="12774" Descripcion="ATM de Alajuela" Referencia="XE6IP" />
+			<Movimiento Nombre="Renovacion de TF" TF="4942959873940953" FechaMovimiento="2024-01-25" Monto="56700" Descripcion="Walmart en Tres Ríos" Referencia="DX7H6" />
+			<Movimiento Nombre="Cargos por Servicio" TF="5134942862922132" FechaMovimiento="2024-01-25" Monto="87117" Descripcion="Sucursal en San Ramón" Referencia="LROAI" />
+			<Movimiento Nombre="Retiro en ATM" TF="1694998673342057" FechaMovimiento="2024-01-25" Monto="29714" Descripcion="En Pococí" Referencia="GAWBK" />
+			<Movimiento Nombre="Recuperacion por Perdida" TF="2794325256592805" FechaMovimiento="2024-01-25" Monto="0" Descripcion="ATM de Palmares" Referencia="0T56Q" />
+			<Movimiento Nombre="Retiro en Ventana" TF="7343138089572132" FechaMovimiento="2024-01-25" Monto="20224" Descripcion="ATM de San Ramón" Referencia="SYH0D" />
+			<Movimiento Nombre="Intereses Corrientes sobre Saldo" TF="5655636577940569" FechaMovimiento="2024-01-25" Monto="60088" Descripcion="En Corredores" Referencia="IOOP2" />
+		</Movimiento>
+	</fechaOperacion></root>

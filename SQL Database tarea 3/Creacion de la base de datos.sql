@@ -10,12 +10,22 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
+
+CREATE TABLE dbo.Usuario
+(
+	id INT IDENTITY(1, 1) PRIMARY KEY
+	, Username VARCHAR(64) NOT NULL
+	, Password VARCHAR(64) NOT NULL
+);
+
 CREATE TABLE dbo.TarjetaHabientes_TH --clientes de una operación de tarjeta de crédito
 (
 	id INT IDENTITY(1,1) PRIMARY KEY
+	, idUsuario INT NOT NULL
 	, Nombre VARCHAR(128) NOT NULL
 	, ValorDocumentoIdentidad INT NOT NULL
 	, FechaNacimiento DATE NOT NULL
+	, FOREIGN KEY (idUsuario) REFERENCES dbo.Usuario(id)
 );
 
 CREATE TABLE dbo.TarjetasCredito_TC
@@ -28,17 +38,24 @@ CREATE TABLE dbo.TarjetasCredito_TC
 	, FOREIGN KEY (idTH) REFERENCES dbo.TarjetaHabientes_TH(id)
 );
 
+CREATE TABLE dbo.MotivoInvalidacionTarjeta
+(
+	id INT IDENTITY(1, 1) PRIMARY KEY
+	, Nombre VARCHAR(32)
+);
+
 CREATE TABLE dbo.TarjetasFisicas_TF --Tarjeta físico-plástica
 (
 	id INT IDENTITY(1,1) PRIMARY KEY
 	, idTC INT NOT NULL
+	, idMotivoInvalidacion INT NOT NULL
 	, NumeroTarjeta BIGINT NOT NULL
 	, CCV INT NOT NULL
 	, FechaVencimiento DATE NOT NULL
 	, FechaCreacion DATE  NOT NULL
-	, TipoCreacion VARCHAR(32) NOT NULL --Reposicion por robo o perdida, o  Renovacion
 	, EsActivo BIT NOT NULL
 	, FOREIGN KEY (idTC) REFERENCES dbo.TarjetasCredito_TC(id)
+	, FOREIGN KEY (idMotivoInvalidacion) REFERENCES dbo.MotivoInvalidacionTarjeta(id)
 );
 
 CREATE TABLE dbo.TarjetasCreditoAdicionales_TCA -- no puede tener saldo, solo es instrumento de compras
@@ -60,6 +77,7 @@ CREATE TABLE dbo.TarjetasCreditoMaestras_TCM
 	idTC INT PRIMARY KEY
 	, idTH INT NOT NULL
 	, idTipoTC INT NOT NULL
+	, idTCA INT NOT NULL
 	, LimiteCredito MONEY NOT NULL
 	, Saldo MONEY NOT NULL
 	, PagosAcumuladosDelPeriodo INT NOT NULL
@@ -68,57 +86,71 @@ CREATE TABLE dbo.TarjetasCreditoMaestras_TCM
 	, FOREIGN KEY (idTC) REFERENCES dbo.TarjetasCredito_TC(id)
 	, FOREIGN KEY (idTH) REFERENCES dbo.TarjetaHabientes_TH(id)
 	, FOREIGN KEY (idTipoTC) REFERENCES dbo.TipoTC(id)
+	, FOREIGN KEY (idTCA) REFERENCES dbo.TarjetasCreditoAdicionales_TCA(idTC)
 );
 
-CREATE TABLE dbo.Reglas
+CREATE TABLE dbo.TipoReglaNegocio
 (
-	id INT IDENTITY(1, 1) PRIMARY KEY
-	, Unidad VARCHAR(32) NOT NULL --Qmeses, Qdias, TasaInteresAnual, MontoMonetario
-	
+	id INT IDENTITY(1, 1) PRIMARY KEY NOT NULL
+	, Nombre VARCHAR(64) NOT NULL		--porcentaje, cant dias, cant operaciones, monto monetario
+	, TipoDeDato VARCHAR(8) NOT NULL
 );
 
-CREATE TABLE dbo.ReglasXTC
+CREATE TABLE dbo.ReglasNegocio
 (
 	id INT IDENTITY(1, 1) PRIMARY KEY
 	, idTipoTC INT NOT NULL
-	, Valor DECIMAL NOT NULL
+	, idTipoReglaNegocio INT NOT NULL
+	, Nombre VARCHAR(64) NOT NULL
+	, Valor FLOAT NOT NULL --lo agregamos aqui para quitar la tabla ReglasXTC
 	, FOREIGN KEY (idTipoTC) REFERENCES dbo.TipoTC(id)
+	, FOREIGN KEY (idTipoReglaNegocio) REFERENCES dbo.TipoReglaNegocio(id)
 );
 
-CREATE TABLE dbo.TipoMovInt
+--CREATE TABLE dbo.ReglasXTC
+--(
+--	id INT IDENTITY(1, 1) PRIMARY KEY
+--	, idTipoTC INT NOT NULL
+--	, Valor DECIMAL NOT NULL
+--	, FOREIGN KEY (idTipoTC) REFERENCES dbo.TipoTC(id)
+--);
+
+CREATE TABLE dbo.TipoMovimientos
 (
-	id INT PRIMARY KEY --1: debito, suma; 2: credito, resta
-	, Nombre INT NOT NULL
+	id INT IDENTITY(1, 1) PRIMARY KEY
+	, Nombre VARCHAR(64) NOT NULL
+	, Accion VARCHAR(8) NOT NULL
+	, AcumOperaATM VARCHAR(2) NOT NULL		--Acumula Operacion en ATM
+	, AcumOperaVentana VARCHAR(2) NOT NULL
 );
 
+--Con correcciones, segun el XML de operaciones
 CREATE TABLE dbo.Movimiento
 (
 	id INT IDENTITY(1, 1) PRIMARY KEY
-	, idTCM INT NOT NULL
+	, idTCM INT NOT NULL  --para enlazar la tarjeta
 	, idTipoMov INT NOT NULL
-	, FechaOperacion DATE NOT NULL
 	, FechaMovimiento DATE NOT NULL
-	, NumeroDeTF BIGINT NOT NULL
-	-- #numero de de tarjeta que creo que saca del idMovimiento -> idTCM -> idTC -> luego la TF
 	, Descripcion NVARCHAR(MAX) NOT NULL
-	, Referencia INT NOT NULL
+	, Referencia VARCHAR(16) NOT NULL
 	, Monto MONEY NOT NULL
 	, NuevoSaldo MONEY NOT NULL --despues de aplicar el movimiento
 	, FOREIGN KEY (idTCM) REFERENCES dbo.TarjetasCreditoMaestras_TCM(idTC)
-	, FOREIGN KEY (idTipoMov) REFERENCES dbo.TipoMovInt(id)
+	, FOREIGN KEY (idTipoMov) REFERENCES dbo.TipoMovimientos(id)
 );
 
-CREATE TABLE dbo.MovimientoConTF
-(
-	id INT IDENTITY(1, 1) PRIMARY KEY
-	, idMovimiento INT NOT NULL
-	, FechaYHora DATETIME NOT NULL
-	, NombreMov VARCHAR(32) NOT NULL --debito: suma, credito: resta
-	, Monto MONEY NOT NULL
-	, Descripcion VARCHAR(64) NOT NULL
-	, Referencia INT NOT NULL --un numero aleatorio que es una referencia a algo, ya sea un documento o factura o número de autorización, etc.
-	, FOREIGN KEY (idMovimiento) REFERENCES dbo.Movimiento(id)
-);
+-- Tabla sobrante segun el profe
+--CREATE TABLE dbo.MovimientoConTF
+--(
+--	id INT IDENTITY(1, 1) PRIMARY KEY
+--	, idMovimiento INT NOT NULL
+--	, FechaYHora DATETIME NOT NULL
+--	, NombreMov VARCHAR(32) NOT NULL --debito: suma, credito: resta
+--	, Monto MONEY NOT NULL
+--	, Descripcion VARCHAR(64) NOT NULL
+--	, Referencia INT NOT NULL --un numero aleatorio que es una referencia a algo, ya sea un documento o factura o número de autorización, etc.
+--	, FOREIGN KEY (idMovimiento) REFERENCES dbo.Movimiento(id)
+--);
 
 CREATE TABLE dbo.MovimientoSospechoso
 (
@@ -150,15 +182,38 @@ CREATE TABLE dbo.EstadoDeCuenta_EC
 	, FOREIGN KEY (idMovimiento) REFERENCES dbo.Movimiento(id)
 );
 
-CREATE TABLE dbo.MovimientoIntereses
+CREATE TABLE dbo.TipoMovIntCorrientes
+(
+	id INT IDENTITY(1, 1) PRIMARY KEY
+	, Nombre VARCHAR(32) NOT NULL
+);
+
+CREATE TABLE dbo.TipoMovIntMoratorios
+(
+	id INT IDENTITY(1, 1) PRIMARY KEY
+	, Nombre VARCHAR(32) NOT NULL
+);
+
+CREATE TABLE dbo.MovimientoInteresesCorrientes
 (
 	id INT IDENTITY(1, 1) PRIMARY KEY
 	, idTCM INT NOT NULL
-	, idTipoMovInt INT NOT NULL
+	, idTipoMovIntCorr INT NOT NULL
 	, Monto MONEY NOT NULL			--MovIntereses.Monto = Saldo * TasaInteresMensual / 100 / 20 
 	, Fecha DATE NOT NULL
 	, FOREIGN KEY (idTCM) REFERENCES dbo.TarjetasCreditoMaestras_TCM(idTC)
-	, FOREIGN KEY (idTipoMovInt) REFERENCES dbo.TipoMovInt(id)
+	, FOREIGN KEY (idTipoMovIntCorr) REFERENCES dbo.TipoMovIntCorrientes(id)
+);
+
+CREATE TABLE dbo.MovimientoInteresesMoratorios
+(
+	id INT IDENTITY(1, 1) PRIMARY KEY
+	, idTCM INT NOT NULL
+	, idTipoMovIntMoratorios INT NOT NULL
+	, Monto MONEY NOT NULL
+	, Fecha DATE NOT NULL
+	, FOREIGN KEY (idTCM) REFERENCES dbo.TarjetasCreditoMaestras_TCM(idTC)
+	, FOREIGN KEY (idTipoMovIntMoratorios) REFERENCES dbo.TipoMovIntMoratorios(id)
 );
 
 CREATE TABLE dbo.SubEstadoDeCuenta
@@ -176,21 +231,6 @@ CREATE TABLE dbo.SubEstadoDeCuenta
 	, SumaDeTodosLosDebitos MONEY NOT NULL
 	, FOREIGN KEY (idEstadoDeCuenta) REFERENCES dbo.EstadoDeCuenta_EC(id)
 	, FOREIGN KEY (idMovimiento) REFERENCES dbo.Movimiento(id)
-);
-
-CREATE TABLE dbo.Roles
-(
-	id INT IDENTITY(1, 1) PRIMARY KEY
-	, Rol VARCHAR(32) NOT NULL
-);
-
-CREATE TABLE dbo.Usuario
-(
-	id INT IDENTITY(1, 1) PRIMARY KEY
-	, idRol INT NOT NULL
-	, Username VARCHAR(64) NOT NULL
-	, Password VARCHAR(64) NOT NULL
-	, FOREIGN KEY (idRol) REFERENCES dbo.Roles(id)
 );
 
 CREATE TABLE dbo.BitacoraEvento
