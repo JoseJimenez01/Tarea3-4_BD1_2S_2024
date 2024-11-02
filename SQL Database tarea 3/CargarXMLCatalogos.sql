@@ -8,10 +8,15 @@ DECLARE @xmlData XML;
 -- SE cargan los datos XML a la variable, cambiar la ruta según sea el caso
 SET @xmlData = (
 		SELECT *
-		--FROM OPENROWSET(BULK 'rutaXMLEnLaptop', SINGLE_BLOB) 
 		FROM OPENROWSET(BULK 'C:\Users\Usuario\OneDrive\Escritorio\Material_y_evaluaciones_de_cursos\2 S 2024\Bases de Datos 1\Tarea 3\Tarea3-4_BD1_2S_2024\SQL Database tarea 3\XMLCatalogos.xml', SINGLE_BLOB) 
 		AS xmlData
 		);
+
+--SET @xmlData = (
+--		SELECT *
+--		FROM OPENROWSET(BULK 'https://bases-datos-tarea-tres-archivo.s3.us-east-1.amazonaws.com/OperacionesCompleto.xml', SINGLE_BLOB) 
+--		AS xmlData
+--		);
 
 ----- Seccion de tablas variables para mapeo de los correctos atributos a la hora de insercion -------------------------
 DECLARE @TablaVariableReglasNegocio TABLE
